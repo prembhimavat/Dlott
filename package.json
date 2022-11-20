@@ -1,9 +1,6 @@
 {
-  "homepage": "https://prembhimavat.github.io/Dlott",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
@@ -14,7 +11,6 @@
     "@thirdweb-dev/react": "^3.6.0",
     "@thirdweb-dev/sdk": "^3.6.0",
     "ethers": "^5.7.2",
-    "gh-pages": "^4.0.0",
     "next": "latest",
     "react": "18.2.0",
     "react-countdown": "^2.3.4",
